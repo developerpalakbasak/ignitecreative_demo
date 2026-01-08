@@ -17,8 +17,8 @@ const SingleService = ({
             className='p-[2px] bg-gradient-to-r from-[#659fc5] to-[#4a5caa] rounded-lg'
         >
             <div className='flex items-center gap-5 p-4 bg-black rounded-lg'>
-                <Icon size={size} />
-                <p className='text-3xl'>{text}</p>
+                <Icon size={size} color="white" />
+                <p className='text-3xl text-white'>{text}</p>
             </div>
         </motion.div>
 

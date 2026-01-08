@@ -17,7 +17,7 @@ const Feature = () => {
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.5 }}
                     viewport={{ once: true, amount: 0.3 }}
-                    className='border-b-2 border-[#4a5caa] text-4xl'>Feature</motion.p>
+                    className='border-b-2 text-white border-[#4a5caa] text-4xl'>Feature</motion.p>
             </div>
 
             <div className='grid grid-cols-3 gap-2'>

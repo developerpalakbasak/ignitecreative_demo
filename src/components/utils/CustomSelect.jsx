@@ -45,7 +45,7 @@ const CustomSelect = ({ name, required }) => {
             <button
                 type="button"
                 onClick={toggleDropdown}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-transparent text-left focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-transparent text-left focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none text-white"
             >
                 {selected.label}
             </button>
@@ -64,7 +64,7 @@ const CustomSelect = ({ name, required }) => {
                                 setSelected(option)
                                 setIsOpen(false)
                             }}
-                            className={`px-4 py-3 cursor-pointer hover:bg-blue-100/20 ${index+1 < referralOptions.length?"border-b":""}`}
+                            className={`px-4 text-white py-3 cursor-pointer hover:bg-blue-100/20 ${index+1 < referralOptions.length?"border-b":""}`}
                         >
                             {option.label}
                         </li>
@@ -73,7 +73,7 @@ const CustomSelect = ({ name, required }) => {
             )}
 
             {/* Hidden input to submit value in form */}
-            <input type="hidden" name={name} value={selected.value} required={required} />
+            <input type="hidden" name={name} className="text-white" value={selected.value} required={required} />
         </div>
     )
 }

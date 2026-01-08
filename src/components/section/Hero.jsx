@@ -20,7 +20,7 @@ const Hero = () => {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.45 }}
                     viewport={{ once: true }}
-                    className="w-1/2 mt-20 text-4xl">
+                    className="w-1/2 mt-20 text-4xl text-white">
                     <p className='inline'>Done for You Systems That Capture Leads and </p>
                     <span className="bg-gradient-to-r from-[#4a5caa] to-[#659fc5] bg-clip-text text-transparent">
                         Ignite
@@ -47,7 +47,7 @@ const Hero = () => {
                 transition={{ duration: 0.25 }}
                 viewport={{ once: true }}
                 className='flex flex-col items-center justify-center mt-20 max-w-3xl m-auto'>
-                <p className='text-3xl  text-center'>
+                <p className='text-3xl text-white text-center'>
                     Our Core Values-
                 </p>
                 <span className='flex'>

@@ -25,7 +25,7 @@ const Contact = () => {
 
     return (
 
-        <div className="w-full max-w-6xl mt-8">
+        <div className="w-full max-w-6xl mt-8 text-white">
 
             <motion.div
                 initial={{ y: 100, opacity: 0 }}
@@ -34,7 +34,7 @@ const Contact = () => {
                 viewport={{ once: true, amount: 0.3 }}
                 className='flex justify-center items-center gap-2 mb-8'>
                 {/* <GoDotFill color='#4a5caa' /> */}
-                <p className='border-b-2 border-[#4a5caa] text-4xl'>Contact</p>
+                <p className='border-b-2 border-[#4a5caa] text-4xl text-white'>Contact</p>
             </motion.div>
 
             <div className="flex ">

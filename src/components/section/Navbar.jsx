@@ -37,13 +37,13 @@ const Navbar = () => {
                     <Link
                         href={item.href}
                         key={item.href}
-                        className="hover:underline hover:text-[#4a5caa] transition whitespace-nowrap"
+                        className="hover:underline hover:text-[#4a5caa] transition text-white whitespace-nowrap"
                     >
                         {item.name}
                     </Link>
                 ))}
 
-                <button className="cursor-pointer bg-[#4a5caa] hover:bg-[#659fc5] transition px-3.5 py-1 rounded-full whitespace-nowrap">
+                <button className="cursor-pointer bg-[#4a5caa] hover:bg-[#659fc5] transition px-3.5 py-1 rounded-full whitespace-nowrap text-white ">
                     Call Now
                 </button>
             </div>

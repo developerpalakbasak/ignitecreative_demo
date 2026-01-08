@@ -18,7 +18,7 @@ const SingleTestimonial = ({ left, center, right }) => {
             viewport={{ once: true, amount: 0.3 }}
 
             className='border p-3 rounded-xl'>
-            <p className='text-sm'>We have loved working with Melissa the last year! She’s made a big difference in our business and sincerely cares about her clients success. We highly recommend her.</p>
+            <p className='text-sm text-white'>We have loved working with Melissa the last year! She’s made a big difference in our business and sincerely cares about her clients success. We highly recommend her.</p>
             <p className='text-xs text-gray-400 mt-3'>- Charity Reiter - Bethesda Natural Health</p>
         </motion.div>
     )

@@ -13,7 +13,7 @@ const StartProject = () => {
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.5 }}
                     viewport={{ once: true, amount: 0.3 }}
-                    className='border-b-2 border-[#4a5caa] text-4xl'>Ready to Start Your Project?</motion.p>
+                    className='border-b-2 text-white border-[#4a5caa] text-4xl'>Ready to Start Your Project?</motion.p>
             </div>
 
             <div className="  space-y-6">
@@ -25,7 +25,7 @@ const StartProject = () => {
                     viewport={{ once: true, amount: 0.3 }}
 
                     className="space-y-2">
-                    <label htmlFor="fullName" className="block text-sm font-medium text-gray-700">
+                    <label htmlFor="fullName" className="block text-sm font-medium text-gray-700 text-white">
                         Full name <span className="text-red-500">*</span>
                     </label>
                     <input
@@ -33,7 +33,7 @@ const StartProject = () => {
                         id="fullName"
                         name="fullName"
                         required
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                        className="w-full px-4 py-3 border border-gray-300 text-white rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
                         placeholder="Enter your full name"
                     />
                 </motion.div>
@@ -46,7 +46,7 @@ const StartProject = () => {
                     viewport={{ once: true, amount: 0.3 }}
 
                     className="space-y-2">
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                    <label htmlFor="email" className="block text-sm font-medium  text-white">
                         Email <span className="text-red-500">*</span>
                     </label>
                     <input
@@ -54,7 +54,7 @@ const StartProject = () => {
                         id="email"
                         name="email"
                         required
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition text-white "
                         placeholder="Enter your email address"
                     />
                 </motion.div>
@@ -66,7 +66,7 @@ const StartProject = () => {
                     transition={{ duration: 0.5 }}
                     viewport={{ once: true, amount: 0.3 }}
                     className="space-y-2">
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
+                    <label htmlFor="phone" className="block text-sm font-medium text-white">
                         Phone number <span className="text-red-500">*</span>
                     </label>
                     <input
@@ -74,7 +74,7 @@ const StartProject = () => {
                         id="phone"
                         name="phone"
                         required
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition text-white "
                         placeholder="Enter your phone number"
                     />
                 </motion.div>
@@ -86,7 +86,7 @@ const StartProject = () => {
                     transition={{ duration: 0.5 }}
                     viewport={{ once: true, amount: 0.3 }}
                     className="space-y-2">
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
+                    <label htmlFor="phone" className="block text-sm font-medium text-white ">
                         How did you hear about us? <span className="text-red-500">*</span>
                     </label>
                     <input
@@ -94,7 +94,7 @@ const StartProject = () => {
                         id="hear-about"
                         name="hear-about"
                         required
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                        className="w-full text-white px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
                         placeholder="Ex: Facebook Ads"
                     />
                 </motion.div>
@@ -108,7 +108,7 @@ const StartProject = () => {
                     transition={{ duration: 0.5 }}
                     viewport={{ once: true, amount: 0.3 }}
                     className="space-y-2">
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
+                    <label htmlFor="phone" className="block text-sm font-medium text-white">
                         What type of project are you looking for? <span className="text-red-500">*</span>
                     </label>
 
@@ -122,7 +122,7 @@ const StartProject = () => {
                     viewport={{ once: true, amount: 0.3 }}
                     className='w-full flex justify-center mt-5'>
 
-                    <button className="cursor-pointer bg-[#4a5caa] hover:bg-[#659fc5] transition px-3.5 py-1 rounded-full whitespace-nowrap">
+                    <button className="cursor-pointer bg-[#4a5caa] hover:bg-[#659fc5] transition px-3.5 py-1 rounded-full whitespace-nowrap text-white">
                         Send
                     </button>
                 </motion.span>

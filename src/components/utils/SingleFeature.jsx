@@ -19,7 +19,7 @@ const SingleFeature = ({ left, center, right, Icon, text, size = 40 }) => {
             viewport={{ once: true, amount: 0.3 }}
 
 
-            className='border p-4 rounded-xl'>
+            className='border p-4 rounded-xl text-white'>
             <span className='w-full flex justify-center mb-2'>
                 <Icon size={size} />
             </span>

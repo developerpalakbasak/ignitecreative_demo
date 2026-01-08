@@ -31,7 +31,7 @@ const Service = () => {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.25 }}
           viewport={{ once: true, amount: 0.3 }}
-          className='border-b-2 border-[#4a5caa]  text-4xl'>What Do We Offer</motion.p>
+          className='border-b-2 border-[#4a5caa] text-white text-4xl'>What Do We Offer</motion.p>
       </div>
 
       <div className='mt-8 flex flex-col gap-5'>
