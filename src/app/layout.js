@@ -1,15 +1,15 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/section/Navbar";
+import Contact from "@/components/section/Contact";
+import Footer from "@/components/section/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space-grotesk",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+
 
 export const metadata = {
   title: "Create Next App",
@@ -20,9 +20,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${spaceGrotesk.variable} antialiased px-2 max-w-6xl m-auto`}
       >
-        {children}
+        <div className="fixed  inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#4a5caa_100%)] "></div>
+
+        <Navbar />
+        <div className="max-w-6xl">
+          {children}
+        </div>
+        {/* <Contact/> */}
+        <Footer/>
       </body>
     </html>
   );
