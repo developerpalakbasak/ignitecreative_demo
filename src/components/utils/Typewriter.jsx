@@ -38,7 +38,7 @@ function Typewriter({ quotes, className, typingSpeed = 120, deletingSpeed = 80, 
     return (
         <span className={`${className ?? className} bg-gradient-to-r from-[#4a5caa] to-[#659fc5] bg-clip-text text-transparent`}>
             {text}
-            <span className="animate-pulse">|</span>
+            <span className="animate-pulse text-white">|</span>
         </span>
     );
 }
